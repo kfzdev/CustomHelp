@@ -3,12 +3,12 @@ package com.customapi.fmkpl.config;
 public class Constant {
 
     public static class Config{
-        public static final String APPID = "5";
+        public static final String APPID = "1";
     }
     public static class HttpUrl {
-        public static final String LOGIN_URL = "http://121.199.58.5/api/member_app/login";
+        public static final String LOGIN_URL = "http://ip/api/member_app/login";
 
-        public static final String GET_USER_INFO = "http://121.199.58.5/api/member_app/get_user_info";
+        public static final String GET_USER_INFO = "http://ip/api/member_app/get_user_info";
 
     }
     public static class TextTag {
