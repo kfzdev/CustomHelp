@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/mainlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="80dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/dialog_back"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:letterSpacing="0.2"
+            android:text="请细看以下内容"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <View
+            android:id="@+id/fengexian1"
+            android:layout_below="@+id/dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="#d8d8d8" />
+
+        <ScrollView
+            android:id="@+id/scrollprvi"
+            android:layout_below="@+id/fengexian1"
+            android:layout_above="@+id/fengexian2"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/OrangeRed"
+                    android:textSize="@dimen/body"
+                    android:text="！！！请严格遵守代驾平台的服务协议，如果协议明确不允许使用第三方软件进行接单，请立即终止使用" />
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/OrangeRed"
+                    android:textSize="@dimen/body"
+                    android:text="*** 此软件开发目的是为了让代驾司机能接到订单，由于市面上抢单程序太多且收费高，所以模仿了一款接单软件开发了此APP，此APP免费使用" />
+
+                <TextView
+                    android:id="@+id/dsf"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/body"
+                    android:text="1本软件仅为免费的辅助模拟软件，使用期间不得违反代驾平台的使用规则。\n\n2如果代驾平台不允许使用第三方软件进行接单，请立即终止使用本软件\n\n3不得利用本软件从事危害代驾平台利益的行为。\n\n4禁止利用本软件盈利及商业用途。\n\n5不得用于法律法规禁止的行为。\n\n6如果不同意以上条款，请立即卸载" />
+
+            </LinearLayout>
+        </ScrollView>
+        <View
+            android:id="@+id/fengexian2"
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:layout_above="@+id/dialog_confirm"
+            android:background="#d8d8d8" />
+
+        <TextView
+            android:id="@+id/dialog_confirm"
+            android:layout_above="@+id/dialog_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:letterSpacing="0.2"
+            android:text="我已经认真阅读，并同意使用"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/dialog_cancel"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/refuse_buttom"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:letterSpacing="0.2"
+            android:text="拒绝使用"
+            android:textColor="@color/OrangeRed"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

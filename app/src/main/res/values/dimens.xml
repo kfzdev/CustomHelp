@@ -1,0 +1,42 @@
+<resources>
+    <!-- Recognition screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="setting_params_font">18sp</dimen>
+
+    <dimen name="collect_bottom_font">12sp</dimen>
+    <dimen name="agreement_content_font">14sp</dimen>
+    <dimen name="agreement_title_font">18sp</dimen>
+    <dimen name="size90">90dip</dimen>
+    <dimen name="text_size18">18dp</dimen>
+    <dimen name="text_size26">26dp</dimen>
+
+    <dimen name="bottom_lib_dialog_cancel_text">18sp</dimen>
+    <dimen name="bottom_lib_dialog_item_text">16sp</dimen>
+    <dimen name="bottom_lib_dialog_padding_bottom">12dp</dimen>
+    <dimen name="bottom_lib_dialog_padding_left">12dp</dimen>
+    <dimen name="bottom_lib_dialog_padding_right">12dp</dimen>
+    <dimen name="bottom_lib_dialog_padding_top">12dp</dimen>
+    <dimen name="bottom_lib_dialog_title_text">18sp</dimen>
+
+    <dimen name="bignumber">26sp</dimen>
+    <dimen name="smallnumber">16sp</dimen>
+    <dimen name="body">16sp</dimen>
+    <dimen name="body1">18sp</dimen>
+    <dimen name="titlebartext">20sp</dimen>
+    <dimen name="titlebaricon">30sp</dimen>
+    <dimen name="baseiconsize">26sp</dimen>
+    <dimen name="bigicon">32sp</dimen>
+    <dimen name="horizontal_spacing">10sp</dimen>
+    <dimen name="action_list_item_icon">23sp</dimen>
+    <dimen name="action_list_item_text">16sp</dimen>
+    <dimen name="smallbodaay">12sp</dimen>
+    <dimen name="sssmallbodaay">11sp</dimen>
+    <dimen name="smalliconsize">22sp</dimen>
+    <dimen name="basefontsize">14sp</dimen>
+    <dimen name="smallbody">14sp</dimen>
+    <dimen name="ver_jianju">8dp</dimen>
+    <dimen name="backiconsize">26sp</dimen>
+    <dimen name="dfsgfgdhjhgfhfg">5sp</dimen>
+</resources>
